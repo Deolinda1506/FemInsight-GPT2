@@ -1,0 +1,10 @@
+torch
+transformers
+datasets
+gradio
+matplotlib
+seaborn
+pandas
+numpy
+nltk
+evaluate
