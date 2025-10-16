@@ -26,13 +26,13 @@ FemInsight operates in the healthcare domain, specifically focusing on women's h
 ### Hyperparameter Experiments
 | Experiment | Learning Rate | Batch Size | Epochs | Weight Decay | Eval Loss |
 |------------|---------------|------------|--------|--------------|-----------|
-| 1          | 5e-5         | 16         | 10     | 0.01         | 2.345     |
-| 2          | 1e-5         | 8          | 20     | 0.1          | 1.982     |
-| 3          | 2e-5         | 4          | 15     | 0.05         | 2.103     |
-| 4          | 1e-5         | 8          | 10     | 0.0          | 2.410     |
-| 5          | 1e-4         | 16         | 25     | 0.05         | 1.756     |
+| 1          | 5e-5         | 16         | 10     | 0.01         | 1.016883  |
+| 2          | 1e-5         | 16         | 20     | 0.1          | 1.147389  |
+| 3          | 2e-5         | 16         | 15     | 0.05         | 1.074074  |
+| 4          | 1e-5         | 8          | 10     | 0.0          | 1.216039  |
+| 5          | 1e-4         | 32         | 25     | 0.05         | 1.126583  |
 
-**Best Performance**: Experiment 5 achieved the lowest evaluation loss (1.756), outperforming the worst experiment by 27% (Experiment 4: 2.410 → Experiment 5: 1.756)
+**Best Performance**: Experiment 1 achieved the lowest evaluation loss (1.016883), outperforming the worst experiment by 16% (Experiment 4: 1.216039 → Experiment 1: 1.016883)
 
 ### Installation
 
@@ -109,4 +109,5 @@ FemInsight-GPT2/
 - **Dataset**: [Menstrual-Health-Awareness-Dataset](https://huggingface.co/datasets/gjyotk/Menstrual-Health-Awareness-Dataset) by gjyotk
 - **Model**: GPT-2 by OpenAI
 - **Framework**: Hugging Face Transformers and Gradio
+
 
