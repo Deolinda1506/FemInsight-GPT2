@@ -33,6 +33,12 @@ FemInsight operates in the healthcare domain, specifically focusing on women's h
 | 5          | 1e-4         | 32         | 25     | 0.05         | 1.126583  |
 
 **Best Performance**: Experiment 1 achieved the lowest evaluation loss (1.016883), outperforming the worst experiment by 16% (Experiment 4: 1.216039 → Experiment 1: 1.016883)
+### Performance Evaluation
+
+#### Quantitative Metrics
+- **BLEU Score**: 0.0714 (text similarity to reference answers)
+- **F1 Score**: 0.1637 (token-based overlap between generated and reference)
+- **Perplexity**: 26.06 (model confidence in generated responses)
 
 ### Installation
 
